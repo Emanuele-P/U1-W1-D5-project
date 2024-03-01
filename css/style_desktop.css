@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-/* ho scritto il codice prendendo a riferimento la visualizzazione del browser di iphone 14 pro Max, ma è comunque scalabile a più smartphone*/
-
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
@@ -26,24 +24,25 @@ h6 {
 }
 
 h1 {
-  font-size: 4rem;
-  padding: 5rem 0 2rem;
+  font-size: 2.2rem;
+  padding: 10rem 0 0;
   line-height: 1; /* l'ho cambiata per renderlo più simile al mock-up*/
 }
 
 h2 {
   color: white;
   font-size: 2rem;
-  padding: 3rem 0 1rem;
+  padding: 6rem 0 1rem;
 }
 
 header > div {
   background-color: black;
+  text-align: left;
 }
 
 .logo {
-  width: 10em;
-  padding: 2.5rem 0;
+  width: 8em;
+  padding: 1.5rem 2rem;
 }
 
 nav {
@@ -56,10 +55,12 @@ nav {
 nav > p {
   font-size: 1.5rem;
   margin: 1rem 0;
+  padding: 1.5rem 18rem;
+  font-weight: 300;
 }
 
 .btn {
-  padding: 2rem 0 3rem;
+  padding: 0 0 10rem;
 }
 
 nav button {
@@ -67,10 +68,27 @@ nav button {
   font-family: "Montserrat", sans-serif;
   border: none;
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 6px;
-  font-size: 1.3em;
-  padding: 1.2rem 2.5rem;
+  font-size: 0.7em;
+  padding: 1rem 1.6rem;
+}
+
+.round {
+  padding: 2rem 0 4rem 13rem;
+  display: inline-block;
+}
+
+article img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.text-right {
+  display: inline-block;
+  text-align: left;
+  padding: 0 4rem 0 5rem;
+  width: 30%;
 }
 
 article {
@@ -78,21 +96,12 @@ article {
 }
 
 article h3 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding: 2rem 0 1rem;
 }
 
 article p {
-  font-size: 1em;
-}
-
-.round {
-  padding: 2rem 0 0;
-}
-
-article img {
-  border-radius: 50%;
-  width: 90%;
+  font-size: 1rem;
 }
 
 section {
@@ -103,34 +112,38 @@ section {
 
 .quote {
   padding: 1rem 0;
-  font-size: 1em;
+  font-size: 2rem;
   font-style: italic;
 }
 
 section p {
-  padding: 1.5rem 0;
-  font-size: 2rem;
+  padding: 1rem 0;
+  font-size: 1.4rem;
 }
 section p span {
   display: block;
-  padding: 0 0 2rem;
+  padding: 0 0 5rem;
   font-size: 0.5em;
 }
 
 section,
 aside {
-  padding: 0 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 aside img {
   width: 100%;
   background-position: center;
+  height: 250px;
 }
 
 aside > div {
   border: 1px solid #dee1e3;
   border-radius: 6px;
-  margin: 3rem 0;
+  margin: 5rem 2rem;
+  display: inline-block;
+  width: 350px;
+  vertical-align: top;
 }
 
 aside h4 {
@@ -141,7 +154,7 @@ aside h4 {
 
 aside p {
   padding: 1.5rem 1.5rem 2.2rem;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 footer {
@@ -152,15 +165,18 @@ footer {
 }
 
 footer h2 {
-  padding: 2.5rem 0 1.5rem;
+  padding: 4rem 0 2rem;
+  font-size: 2.5rem;
 }
 
 .contacts {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  text-align: start;
+  margin-left: 43%;
 }
 
 footer hr {
-  margin: 2rem 7rem;
+  width: 15%;
   border: 1px solid #c8e7f0;
 }
 
@@ -177,6 +193,6 @@ footer a:visited {
 }
 
 .year {
-  font-size: 1.1rem;
-  padding: 0 0 5rem;
+  font-size: 0.8rem;
+  padding: 2rem 0 4rem;
 }
